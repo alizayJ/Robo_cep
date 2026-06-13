@@ -1,0 +1,17 @@
+running develop
+running egg_info
+writing rover_rectangular.egg-info/PKG-INFO
+writing dependency_links to rover_rectangular.egg-info/dependency_links.txt
+writing entry points to rover_rectangular.egg-info/entry_points.txt
+writing requirements to rover_rectangular.egg-info/requires.txt
+writing top-level names to rover_rectangular.egg-info/top_level.txt
+reading manifest file 'rover_rectangular.egg-info/SOURCES.txt'
+writing manifest file 'rover_rectangular.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/ak/cep_ws/install/rover_rectangular/lib/python3.12/site-packages/rover-rectangular.egg-link (link to .)
+Installing Rectangular_node script to /home/ak/cep_ws/install/rover_rectangular/lib/rover_rectangular
+
+Installed /home/ak/cep_ws/build/rover_rectangular
+running symlink_data
+symbolically linking /home/ak/cep_ws/build/rover_rectangular/resource/rover_rectangular -> /home/ak/cep_ws/install/rover_rectangular/share/ament_index/resource_index/packages
+symbolically linking /home/ak/cep_ws/build/rover_rectangular/package.xml -> /home/ak/cep_ws/install/rover_rectangular/share/rover_rectangular

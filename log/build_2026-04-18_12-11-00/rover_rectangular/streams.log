@@ -1,0 +1,19 @@
+[1.131s] Invoking command in '/home/ak/cep_ws/build/rover_rectangular': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/ak/cep_ws/build/rover_rectangular/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ak/cep_ws/install/rover_rectangular/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ak/cep_ws/build/rover_rectangular/build --no-deps symlink_data --force
+[1.573s] running develop
+[1.829s] running egg_info
+[1.853s] writing rover_rectangular.egg-info/PKG-INFO
+[1.853s] writing dependency_links to rover_rectangular.egg-info/dependency_links.txt
+[1.854s] writing entry points to rover_rectangular.egg-info/entry_points.txt
+[1.854s] writing requirements to rover_rectangular.egg-info/requires.txt
+[1.854s] writing top-level names to rover_rectangular.egg-info/top_level.txt
+[1.904s] reading manifest file 'rover_rectangular.egg-info/SOURCES.txt'
+[1.905s] writing manifest file 'rover_rectangular.egg-info/SOURCES.txt'
+[1.931s] running build_ext
+[1.931s] Creating /home/ak/cep_ws/install/rover_rectangular/lib/python3.12/site-packages/rover-rectangular.egg-link (link to .)
+[1.932s] Installing Rectangular_node script to /home/ak/cep_ws/install/rover_rectangular/lib/rover_rectangular
+[1.932s] 
+[1.932s] Installed /home/ak/cep_ws/build/rover_rectangular
+[1.932s] running symlink_data
+[1.933s] symbolically linking /home/ak/cep_ws/build/rover_rectangular/resource/rover_rectangular -> /home/ak/cep_ws/install/rover_rectangular/share/ament_index/resource_index/packages
+[1.933s] symbolically linking /home/ak/cep_ws/build/rover_rectangular/package.xml -> /home/ak/cep_ws/install/rover_rectangular/share/rover_rectangular
+[1.966s] Invoked command in '/home/ak/cep_ws/build/rover_rectangular' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/ak/cep_ws/build/rover_rectangular/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ak/cep_ws/install/rover_rectangular/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ak/cep_ws/build/rover_rectangular/build --no-deps symlink_data --force

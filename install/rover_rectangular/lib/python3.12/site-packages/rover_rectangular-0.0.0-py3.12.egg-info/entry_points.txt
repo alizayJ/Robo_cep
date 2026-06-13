@@ -1,0 +1,6 @@
+[console_scripts]
+Rectangular_node = rover_rectangular.rover_controller:main
+arm_oscillator = rover_rectangular.arm_osc:main
+l_shape_node = rover_rectangular.l_shape_rover:main
+manipulator_node = rover_rectangular.manipulator:main
+rectangle_pid_tf = rover_rectangular.pid:main

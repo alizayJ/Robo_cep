@@ -1,0 +1,1 @@
+[0.023s] Invoking command in '/home/ak/cep_ws/build/robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ak/cep_ws/install/rover_rectangular:/home/ak/ros2_ws/install/my_robot_controller:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ak/cep_ws/build/robot_description -- -j8 -l8

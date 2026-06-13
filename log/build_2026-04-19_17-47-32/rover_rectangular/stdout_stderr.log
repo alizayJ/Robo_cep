@@ -1,0 +1,23 @@
+running egg_info
+writing ../../build/rover_rectangular/rover_rectangular.egg-info/PKG-INFO
+writing dependency_links to ../../build/rover_rectangular/rover_rectangular.egg-info/dependency_links.txt
+writing entry points to ../../build/rover_rectangular/rover_rectangular.egg-info/entry_points.txt
+writing requirements to ../../build/rover_rectangular/rover_rectangular.egg-info/requires.txt
+writing top-level names to ../../build/rover_rectangular/rover_rectangular.egg-info/top_level.txt
+reading manifest file '../../build/rover_rectangular/rover_rectangular.egg-info/SOURCES.txt'
+writing manifest file '../../build/rover_rectangular/rover_rectangular.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+copying package.xml -> /home/ak/cep_ws/install/rover_rectangular/share/rover_rectangular
+running install_egg_info
+removing '/home/ak/cep_ws/install/rover_rectangular/lib/python3.12/site-packages/rover_rectangular-0.0.0-py3.12.egg-info' (and everything under it)
+Copying ../../build/rover_rectangular/rover_rectangular.egg-info to /home/ak/cep_ws/install/rover_rectangular/lib/python3.12/site-packages/rover_rectangular-0.0.0-py3.12.egg-info
+running install_scripts
+Installing Rectangular_node script to /home/ak/cep_ws/install/rover_rectangular/lib/rover_rectangular
+Installing arm_oscillator script to /home/ak/cep_ws/install/rover_rectangular/lib/rover_rectangular
+Installing manipulator_node script to /home/ak/cep_ws/install/rover_rectangular/lib/rover_rectangular
+Installing rectangle_pid_tf script to /home/ak/cep_ws/install/rover_rectangular/lib/rover_rectangular
+writing list of installed files to '/home/ak/cep_ws/build/rover_rectangular/install.log'

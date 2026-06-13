@@ -1,0 +1,24 @@
+[6.086s] Invoking command in '/home/ak/cep_ws/src/rover_rectangular': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/ak/cep_ws/build/rover_rectangular/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ak/cep_ws/install/rover_rectangular/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/rover_rectangular build --build-base /home/ak/cep_ws/build/rover_rectangular/build install --record /home/ak/cep_ws/build/rover_rectangular/install.log --single-version-externally-managed install_data
+[6.495s] running egg_info
+[6.526s] writing ../../build/rover_rectangular/rover_rectangular.egg-info/PKG-INFO
+[6.532s] writing dependency_links to ../../build/rover_rectangular/rover_rectangular.egg-info/dependency_links.txt
+[6.532s] writing entry points to ../../build/rover_rectangular/rover_rectangular.egg-info/entry_points.txt
+[6.532s] writing requirements to ../../build/rover_rectangular/rover_rectangular.egg-info/requires.txt
+[6.532s] writing top-level names to ../../build/rover_rectangular/rover_rectangular.egg-info/top_level.txt
+[6.596s] reading manifest file '../../build/rover_rectangular/rover_rectangular.egg-info/SOURCES.txt'
+[6.624s] writing manifest file '../../build/rover_rectangular/rover_rectangular.egg-info/SOURCES.txt'
+[6.625s] running build
+[6.625s] running build_py
+[6.672s] copying rover_rectangular/rover_controller.py -> /home/ak/cep_ws/build/rover_rectangular/build/lib/rover_rectangular
+[6.673s] running install
+[6.698s] running install_lib
+[6.788s] copying /home/ak/cep_ws/build/rover_rectangular/build/lib/rover_rectangular/rover_controller.py -> /home/ak/cep_ws/install/rover_rectangular/lib/python3.12/site-packages/rover_rectangular
+[6.790s] byte-compiling /home/ak/cep_ws/install/rover_rectangular/lib/python3.12/site-packages/rover_rectangular/rover_controller.py to rover_controller.cpython-312.pyc
+[6.790s] running install_data
+[6.791s] running install_egg_info
+[6.828s] removing '/home/ak/cep_ws/install/rover_rectangular/lib/python3.12/site-packages/rover_rectangular-0.0.0-py3.12.egg-info' (and everything under it)
+[6.829s] Copying ../../build/rover_rectangular/rover_rectangular.egg-info to /home/ak/cep_ws/install/rover_rectangular/lib/python3.12/site-packages/rover_rectangular-0.0.0-py3.12.egg-info
+[6.856s] running install_scripts
+[7.080s] Installing Rectangular_node script to /home/ak/cep_ws/install/rover_rectangular/lib/rover_rectangular
+[7.081s] writing list of installed files to '/home/ak/cep_ws/build/rover_rectangular/install.log'
+[7.119s] Invoked command in '/home/ak/cep_ws/src/rover_rectangular' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/ak/cep_ws/build/rover_rectangular/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ak/cep_ws/install/rover_rectangular/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/rover_rectangular build --build-base /home/ak/cep_ws/build/rover_rectangular/build install --record /home/ak/cep_ws/build/rover_rectangular/install.log --single-version-externally-managed install_data
