@@ -1,0 +1,45 @@
+Commands
+
+Nodes communicate through topic
+-source /opt/ros/jazzy/setup.bash
+-ros2 run turtlesim turtlesim_node 
+-rqt_graph
+
+
+source colcon 
+source custom build node in install workspace install folder
+
+inside ros2_ws
+do colcon build
+then inside src create package
+ros2 pkg create my_robot_controller --build-type ament_python --dependencies rclpy
+then do again colcon build in ros2_ws
+
+For robot_description pkg:
+--> ros2 pkg create --build-type ament_cmake robot_description
+
+ros2 pkg list
+to list all packages
+
+.xacro visualization
+--> sudo apt install ros2-jazzy-urdf-tutorial
+--> ros2 launch urdf_tutorial display.launch.py model:=/home/ak/cep_ws/src/robot_description/urdf/manipulator.urdf.xacro
+
+
+gazebo launch
+ros2 launch ros_gz_sim gz_sim.launch.py
+
+Then, in a new terminal, spawn your robot:
+ros2 run ros_gz_sim create -topic robot_description -name my_rover
+
+
+start publishing to robot discription:
+ros2 run robot_state_publisher robot_state_publisher --ros-args -p robot_description:="$(xacro ~/cep_ws/src/rover_rectangular/urdf/rover.urdf.xacro)"
+
+bridge:
+ros2 run ros_gz_bridge parameter_bridge /cmd_vel@geometry_msgs/msg/Twist@gz.msgs.Twist
+
+
+
+ros2 launch robot_description multi_robot.launch.py 
+
